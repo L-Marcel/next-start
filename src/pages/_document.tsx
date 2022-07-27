@@ -10,6 +10,6 @@ function MyDocument() {
       </body>
     </Html>
   );
-};
+}
 
 export default MyDocument;

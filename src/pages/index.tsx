@@ -7,6 +7,6 @@ function Home() {
       <Button>Test</Button>
     </div>
   );
-};
+}
 
 export default Home;

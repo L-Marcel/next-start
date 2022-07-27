@@ -1,6 +1,6 @@
 import { tw } from "../../services/tw";
 
-export interface StyledButtonProps extends React.HtmlHTMLAttributes<HTMLButtonElement> {};
+export type StyledButtonProps = React.HtmlHTMLAttributes<HTMLButtonElement>;
 
 export const StyledButton = tw.button<StyledButtonProps>`
   w-16

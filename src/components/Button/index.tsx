@@ -1,6 +1,6 @@
 import { StyledButton } from "./index.style";
 
-export interface ButtonProps extends React.HtmlHTMLAttributes<HTMLButtonElement> {};
+export type ButtonProps = React.HtmlHTMLAttributes<HTMLButtonElement>;
 
 export function Button({
   ...rest
@@ -10,4 +10,4 @@ export function Button({
       {...rest}
     />
   );
-};
+}
