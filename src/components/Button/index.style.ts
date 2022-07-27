@@ -1,4 +1,4 @@
-import tw from "tailwind-styled-components";
+import { tw } from "../../services/tw";
 
 export interface StyledButtonProps extends React.HtmlHTMLAttributes<HTMLButtonElement> {};
 
